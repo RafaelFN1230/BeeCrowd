@@ -10,15 +10,15 @@ For each position of the array, print "X [i] = x", where i is the position of th
 X[0] = 1
 '''
 
-cont=-1
+cont=0
 x=[]
-for a in range (10):
-    y=int(input("valor: "))
-    if (y<=0):
-        x.append(1)
-    else:
-        x.append(y)
+
+for a in range(10):
+    X=int(input())
+    x.append(X)
 
 for b in x:
+    if (b<=0):
+        x[cont]=1
+    print("X[%i] ="%cont,x[cont])
     cont+=1
-    print("x[%.1i] ="%cont,b)
