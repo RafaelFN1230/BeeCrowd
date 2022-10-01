@@ -18,7 +18,7 @@ a.append(n)
 cont=0
 print("N[%d] ="%cont,a[cont])
 
-for x in range(1,11):
+for x in range(1,10):
     b=n*2
     n=b
     a.append(b)
