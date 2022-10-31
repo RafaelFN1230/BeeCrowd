@@ -20,5 +20,5 @@ HOURS=int(input())
 RATE=float(input())
 pago=HOURS*RATE
 
-print("NUMBER = ",NUMBER)
+print("NUMBER =",NUMBER)
 print("SALARY = U$ %.2f"%pago)
