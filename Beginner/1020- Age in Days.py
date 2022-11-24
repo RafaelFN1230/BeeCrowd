@@ -21,6 +21,6 @@ if (days>=30):
 if (days>=0):
     dia=(days-(ano*365)-(mes*30))
 
-print(ano," anos (s)")
-print(mes," mes(es)")
-print(dia," dia(s)")
+print(ano,"ano(s)")
+print(mes,"mes(es)")
+print(dia,"dia(s)")

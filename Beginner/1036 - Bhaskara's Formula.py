@@ -11,7 +11,7 @@ Print the result with 5 digits after the decimal point or the message if it is i
 '''
 
 a,b,c=map(float,input().split())
-if a==0 or (b**2)-(4*a*c) == 0:
+if a==0 or (b**2)-(4*a*c) <= 0:
     print("Impossivel calcular")
 else:
     R1=(-b+((b**2)-(4*a*c))**0.5)/(2*a)
