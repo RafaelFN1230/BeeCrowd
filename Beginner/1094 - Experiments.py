@@ -37,15 +37,14 @@ for x in range (n):
         s+=int(a)
 total=c+r+s
 percent_c=c/total*100
-print(percent_c)
 percent_r=r/total*100
 percent_s=s/total*100
 print("Total: %i cobaias" %total)
 print("Total de coelhos: %i" %c)
 print("Total de ratos: %i" %r)
 print("Total de sapos: %i" %s)
-print("Percentual de coelhos:%.2f" %percent_c,"%")
-print("Percentual de ratos:%.2f" %percent_r,"%")
-print("Percentual de sapos:%.2f" %percent_s,"%")
+print("Percentual de coelhos: %.2f" %percent_c,"%")
+print("Percentual de ratos: %.2f" %percent_r,"%")
+print("Percentual de sapos: %.2f" %percent_s,"%")
 
 
