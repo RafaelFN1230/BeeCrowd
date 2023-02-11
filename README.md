@@ -10,7 +10,7 @@ Soluções dos problemas do Beecrowd.
 Select Language: **Portuguese**, [English](README-English.md)
 
 ## O que é?
-Beecrowd é uma plataforma que conta com diversos exercícios, divididos em 8 grandes categorias, para ajudar estudantes com programação focada em tópicos específicos.
+Beecrowd é uma plataforma que conta com diversos exercícios, divididos em 9 grandes categorias, para ajudar estudantes com programação focada em tópicos específicos.
 
 ## Categorias:
 - Iniciante: Problemas básicos para quem está iniciando na programação...
