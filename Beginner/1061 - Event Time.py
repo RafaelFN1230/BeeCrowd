@@ -44,10 +44,18 @@ else:
     horas=horas_f-horas_i
 if minutos_f<minutos_i:
     minutos= minutos_f-minutos_i+60
+    if horas>0:
+        horas-=1
+    else:
+        horas==23
 else:
     minutos=minutos_f-minutos_i
 if segundos_f<segundos_i:
     segundos= segundos_f-segundos_i+60
+    if minutos>0:
+        minutos-=1
+    else:
+        minutos==59
 else:
     segundos=segundos_f-segundos_i
 
