@@ -7,14 +7,19 @@ The input contains an integer value N (0 < N < 13).
 
 Output
 The output contains an integer value corresponding to the factorial of N.
-'''
-resp=0
-def fatorial(t):
-    
-    while t>0:
-        t+=t
-        print(t)
-        return fatorial(t-1)
-        
 
-fatorial(3)
+Input Sample	
+4
+
+Output Sample
+24
+'''
+
+def fatorial(t,resp):
+    while t>0:
+        resp*=t
+        return fatorial(t-1,resp)
+    print(resp)
+        
+n=int(input())
+fatorial(n,1)
